@@ -1,5 +1,8 @@
 AI-Powered Financial Insights
 
+![Uploading image.png…]()
+
+
 Project Overview:
 This project builds an AI-powered engine to analyze users’ financial activity, detect anomalies, provide budget suggestions, and recommend investment opportunities. It uses synthetic data for wallet transactions, historical asset prices, and user profiles to generate insights.
 
@@ -15,20 +18,8 @@ Investment recommendations using asset momentum
 
 Project Structure
 AI-Powered-Financial-Insights/
-│
-├─ data_generator.py       # Generates synthetic users, transactions, and asset prices
-├─ main.py                 # Main pipeline that executes all steps and generates CSV outputs
-├─ etl.py                  # Functions to load datasets
-├─ features.py             # Computes daily and weekly user aggregates and rolling features
-├─ anomaly.py              # Detects transaction-level and daily anomalies
-├─ budget.py               # Generates category-wise and overall smart budgets
-├─ investment.py           # Computes asset momentum and recommends investments
-├─ summaries.py            # Creates human-readable daily and weekly summaries
-├─ data/                   # Folder for generated CSV datasets
-│   ├─ users.csv
-│   ├─ transactions.csv
-│   └─ prices.csv
-└─ output/                 # Folder where pipeline outputs are saved
+<img width="924" height="444" alt="image" src="https://github.com/user-attachments/assets/4731bc6b-7287-44af-a5c6-a31dd4ea57b0" />
+
 
 Step-by-Step Explanation of Each Module
 1. data_generator.py
