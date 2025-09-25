@@ -1,6 +1,7 @@
 AI-Powered Financial Insights
 
-![Uploading image.png…]()
+![Uploading aifiesta-download-1758784789168.png…]()
+
 
 
 Project Overview:
