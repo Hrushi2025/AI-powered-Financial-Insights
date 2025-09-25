@@ -1,4 +1,4 @@
-AI-Powered Financial Insights
+<img width="1024" height="1024" alt="aifiesta-download-1758785371358" src="https://github.com/user-attachments/assets/f5f68e7e-51ee-4f9f-85bf-843a353b5503" />AI-Powered Financial Insights
 
 
 
@@ -25,7 +25,7 @@ Investment recommendations using asset momentum
 
 Project Structure
 AI-Powered-Financial-Insights/
-<img width="924" height="444" alt="image" src="https://github.com/user-attachments/assets/4731bc6b-7287-44af-a5c6-a31dd4ea57b0" />
+![Uploading aifiesta-download-1758785371358.png…]
 
 
 Step-by-Step Explanation of Each Module
