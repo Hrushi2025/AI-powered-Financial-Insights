@@ -1,5 +1,6 @@
 AI-Powered Financial Insights
 
+---
 
 
 
@@ -7,11 +8,13 @@ AI-Powered Financial Insights
 
 
 
-
+---
 
 
 Project Overview:
 This project builds an AI-powered engine to analyze users’ financial activity, detect anomalies, provide budget suggestions, and recommend investment opportunities. It uses synthetic data for wallet transactions, historical asset prices, and user profiles to generate insights.
+
+---
 
 Features:
 
@@ -23,10 +26,13 @@ Anomaly detection in transactions and daily net spending
 
 Investment recommendations using asset momentum
 
+---
+
 Project Structure
 AI-Powered-Financial-Insights/
 <img width="1024" height="1024" alt="aifiesta-download-1758785371358" src="https://github.com/user-attachments/assets/f5f68e7e-51ee-4f9f-85bf-843a353b5503" />
 
+---
 
 Step-by-Step Explanation of Each Module
 1. data_generator.py
@@ -45,6 +51,8 @@ Why used: No real dataset is available, so synthetic data simulates real financi
 
 Alternative: Could load real banking data (CSV/SQL) if available.
 
+---
+
 2. etl.py
 
 Purpose: Handles loading datasets into pandas DataFrames.
@@ -60,6 +68,8 @@ load_prices()
 Why used: Standardizes data loading for reuse in the pipeline.
 
 Alternative: Could integrate directly with databases like MySQL, BigQuery, or Spark.
+
+---
 
 3. features.py
 
@@ -77,6 +87,8 @@ Why used: These features are necessary for anomaly detection, budgets, and summa
 
 Alternative: Could use advanced statistical features or ML-based feature engineering.
 
+---
+
 4. anomaly.py
 
 Purpose: Detect unusual transactions or daily net changes.
@@ -90,6 +102,8 @@ daily_net_anomalies() → flags abnormal daily net balances
 Why used: Helps users identify suspicious activity or overspending.
 
 Alternative: Could implement ML-based anomaly detection (Isolation Forest, Autoencoders).
+
+---
 
 5. budget.py
 
@@ -105,6 +119,8 @@ Why used: Encourages better financial habits and planning.
 
 Alternative: Could implement predictive budgeting using ML regression models.
 
+---
+
 6. investment.py
 
 Purpose: Suggest investment actions based on historical asset trends.
@@ -119,6 +135,8 @@ Why used: Guides users on where to invest their surplus.
 
 Alternative: Could use advanced portfolio optimization, CAPM, or AI trading strategies.
 
+---
+
 7. summaries.py
 
 Purpose: Converts computed metrics into readable summaries.
@@ -132,6 +150,8 @@ compose_weekly_summary(weekly_agg) → per-user weekly summary
 Why used: Makes outputs human-readable for notifications or dashboards.
 
 Alternative: Could generate HTML dashboards or integrate with Streamlit for real-time UI.
+
+---
 
 8. main.py
 
